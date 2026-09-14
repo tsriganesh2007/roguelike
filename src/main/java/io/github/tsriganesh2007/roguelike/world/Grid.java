@@ -10,7 +10,7 @@ public class Grid implements Renderable,Printable{
         this.tiles=new char[height][width];
 
     }
-
+    //new change
 
     //inteface implementation
 
@@ -26,7 +26,7 @@ public class Grid implements Renderable,Printable{
     @Override 
     public char tileAt(int x,int y){
 
-        return '0';
+        return tiles[x][y];
     }
 
     @Override 
